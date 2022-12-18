@@ -32,3 +32,7 @@ sudo systemctl status jenkins
 sudo su - ec2-user
 sudo su - ec2-user
 echo "end of jenkins installation"
+
+
+#after installation, run below command to get admin password
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword 
